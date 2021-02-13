@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookingUni</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+{{>header}}
+
+<div id="container">
+    <div>
+        <div class="notification loadingBox">
+            Loading …
+        </div>
+        <div class="notification infoBox">
+            <span>Info</span>
+        </div>
+        <div class="notification errorBox">
+            <span>Error</span>
+        </div>
+    </div>
+
+    {{{body}}}
+</div>
+
+{{>footer}}
+</body>
+</html>
